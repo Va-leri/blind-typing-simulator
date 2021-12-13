@@ -12,7 +12,7 @@ function Start(): JSX.Element {
 
   return (
     <div className="start">
-      <button className="start__btn" onClick={onStartBtnClick}>Начать</button>
+      <button className="start__btn" onClick={onStartBtnClick}>Start</button>
     </div>
   );
 }

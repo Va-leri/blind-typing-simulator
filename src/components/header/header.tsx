@@ -43,19 +43,19 @@ function Header(): JSX.Element {
       <div className="statistics">
         <ul className="statistics__list">
           <li className={`statistics__item property ${isDataLoaded ? '' : 'statistics__item--disabled'}`}>
-            <p className="property__name">Скорость:</p>
-            <output className="property__value">{speed && `${speed}  зн./мин.`}</output>
+            <p className="property__name">Speed:</p>
+            <output className="property__value">{speed && `${speed}  symb./min.`}</output>
           </li>
           <li className={`statistics__item property ${isDataLoaded ? '' : 'statistics__item--disabled'}`}>
-            <p className="property__name">Всего ошибок:</p>
+            <p className="property__name">Total mistakes:</p>
             <output className="property__value">{mistakes && `${mistakes}`}</output>
           </li>
           <li className={`statistics__item property ${isDataLoaded ? '' : 'statistics__item--disabled'}`}>
-            <p className="property__name">Точность:</p>
+            <p className="property__name">Accuracy:</p>
             <output className="property__value">{accuracy && `${accuracy}  %`}</output>
           </li>
           <li className={`statistics__item ${isDataLoaded ? '' : 'statistics__item--disabled'}`}>
-            <button className="statistics__reset-btn" disabled={isLoading || !isDataLoaded} onClick={onReloadBtnClick} ref={reloadBtnRef}>Пройти заново</button>
+            <button className="statistics__reset-btn" disabled={isLoading || !isDataLoaded} onClick={onReloadBtnClick} ref={reloadBtnRef}>Reload test</button>
           </li>
         </ul>
       </div>

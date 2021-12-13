@@ -1,4 +1,5 @@
-import './app.scss';
+// import './app.scss';
+import '../../sass/style.scss';
 import { Fragment } from 'react';
 import { useSelector } from 'react-redux';
 import { getIsDataLoaded, getIsFinish, getIsLoading } from '../../store/selectors';

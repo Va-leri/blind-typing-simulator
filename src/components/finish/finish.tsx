@@ -1,8 +1,8 @@
 function Finish(): JSX.Element {
   return (
     <div className='finish'>
-      <div>Поздравляем! Вы прошли тест.</div>
-      <div>Вот Ваши результаты:</div>
+      <div>Congratulations! You passed the test</div>
+      <div>Here are your results:</div>
     </div>
   );
 }
