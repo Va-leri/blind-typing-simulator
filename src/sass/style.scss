@@ -1,0 +1,13 @@
+@import "variables";
+@import "main-container";
+@import "header";
+@import "statistics";
+@import "text-container";
+@import "property";
+@import "start";
+@import "symbol";
+@import "finish";
+
+html, body {
+  color: $main-font-color;
+}

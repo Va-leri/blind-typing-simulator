@@ -1,0 +1,44 @@
+.statistics {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.statistics__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.statistics__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  color: white;
+  background-color: $btns-background-color;
+  transform: skew(-15deg);
+  border-radius: 3px;
+  padding: 9px 21px 6px 11px;
+
+  &--disabled {
+    background-color: $disabled-background-color;
+  }
+}
+
+.statistics__reset-btn {
+  width: 100%;
+  height: 100%;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}

@@ -1,0 +1,10 @@
+.symbol {
+  &--current {
+    background-color: $btns-background-color;
+    color: white;
+  }
+
+  &--mistaken {
+    background-color: #e10074;
+  }
+}

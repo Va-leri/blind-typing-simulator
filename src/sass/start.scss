@@ -1,0 +1,19 @@
+.start {
+  margin: auto;
+}
+
+.start__btn {
+  width: 200px;
+  height: 80px;
+	background: none;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	font: inherit;
+  color: white;
+  background-color: $btns-background-color;
+  transform: skew(-15deg);
+  border-radius: 3px;
+  font-size: 20px;
+}
