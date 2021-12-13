@@ -50,7 +50,7 @@ function Test(): JSX.Element {
     return (() => {
       document.removeEventListener('keypress', onType);
     });
-  }, [currentSymbolIndex, isFinish, isMistake]);
+  }, [currentSymbolIndex, isFinish, isMistake, dispatch, preparedText]);
 
   useEffect(() => () => {
     if (stopwatch) {
